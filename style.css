@@ -1,0 +1,146 @@
+body,
+h3,
+p {
+    margin: 0;
+
+}
+
+.lexend-deca-regular {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-shoulders-bold {
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff;
+}
+
+body {
+    background-color: #F2F2F2;
+    height: 100vh;
+    align-content: center;
+}
+
+.cards {
+    width: 920px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #e72020; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    height: 500px;
+    width: 307px;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+article h3 {
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+article p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+}
+
+article a {
+    width: 146px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #F2F2F2;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #E28625;
+    /* padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 32px;
+    padding-left: 32px; */
+    /* padding: 12px 32px 12px 32px; */
+    /* padding: 12px 32px; */
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+article a:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+
+}
+
+.sedans {
+    background-color: #E28625;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.suvs {
+    background-color: #006971;
+
+}
+
+.luxury {
+    background-color: #004140;
+    /* border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; */
+    border-radius: 0 8px 8px 0;
+}
+
+.sedans a {
+    color: #E28625;
+
+}
+
+.suvs a {
+    color: #006971;
+
+}
+
+.luxury a {
+    color: #004140;
+
+}
+
+div.logo {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 35px;
+    border-radius: 50%;
+    /* opacity: 20%; */
+    position: relative;
+}
+
+div.logo img {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
